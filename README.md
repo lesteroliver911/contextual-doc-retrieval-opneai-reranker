@@ -1,7 +1,7 @@
 
-# Contextual Document Retrieval with LlamaParse, OpenAI, and Cohere
+# Contextual Document Retrieval with LlamaParse, OpenAI GPT-4o, Contextual chunking, BM25, Query Expansion and Cohere Re-ranking
 
-This repository provides a Python-based system for contextual document retrieval, leveraging technologies such as LangChain, FAISS, BM25, Cohere, and OpenAI's GPT-4. It is designed to parse PDF documents, split them into chunks, generate contextualized chunks, and perform search queries on the document using both semantic and traditional retrieval methods.
+This repository provides a Python-based system for accurate document retrieval using advanced AI techniques. It combines OpenAI's GPT-4o model with Cohere for re-ranking and query expansion to enhance search precision. The system utilizes BM25 for keyword-based search and contextual chunking for improved understanding of documents, ensuring high-quality, context-aware results.
 
 ## Features
 - **PDF Parsing**: Extracts content from PDFs using LlamaParse.
@@ -15,8 +15,8 @@ This repository provides a Python-based system for contextual document retrieval
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/contextual-retrieval.git
-    cd contextual-retrieval
+    git clone https://github.com/your-username/contextual-doc-retrieval-opneai-reranker.git
+    cd contextual-doc-retrieval-opneai-reranker
     ```
 
 2. Install dependencies:
