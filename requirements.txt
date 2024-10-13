@@ -1,0 +1,8 @@
+python-dotenv
+langchain
+langchain-openai
+faiss-cpu
+rank_bm25
+cohere
+llama-parse
+openai
